@@ -1,0 +1,106 @@
+.BlogPageContent {
+    margin-top: 10rem;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Caudex&display=swap");
+* {
+    font-family: "Caudex", serif;
+}
+
+#blog {
+    padding: 5rem 2rem;
+}
+
+#blog .blog-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    padding-bottom: 6rem;
+}
+
+#blog .blog-box .blog-image {
+    width: 50%;
+}
+
+#blog .blog-box .blog-image img {
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+#blog .blog-box h1 {
+    position: absolute;
+    top: -7.5rem;
+    left: 0;
+    font-size: 5rem;
+    font-weight: 500;
+    color: #4cb0b0;
+}
+
+#blog .blog-details {
+    width: 50%;
+    padding: 0 1rem;
+}
+
+#blog .blog-details a {
+    text-decoration: none;
+    color: #046969;
+    position: relative;
+    background-image: --webkit-gradient( linear, left top, right top, from(red), to(blue));
+    background-image: linear-gradient(90deg, red, blue);
+    background-size: 0% 3px;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    -webkit-transition: background-size 300ms ease;
+    transition: background-size 300ms ease;
+}
+
+#blog .blog-details a::after {
+    content: "";
+    width: 3rem;
+    height: 2px;
+    background-color: #004e4e;
+    position: absolute;
+    top: 10px;
+    right: -4rem;
+}
+
+#blog .blog-details a:hover {
+    background-size: 100% 3px;
+}
+
+#blog .blog-details a:hover::after {
+    background-image: --webkit-gradient( linear, left top, right top, from(red), to(blue));
+    background-image: linear-gradient(90deg, red, blue);
+    background-size: 0% 3px;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    -webkit-transition: background-size 300ms ease;
+    transition: background-size 300ms ease;
+    background-size: 100% 3px;
+}
+
+@media screen and (max-width: 992px) {
+    #blog .blog-box {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    #blog .blog-box .blog-image {
+        width: 100%;
+        padding: 0;
+    }
+    #blog .blog-details {
+        width: 100%;
+        padding: 0;
+    }
+}

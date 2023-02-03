@@ -1,0 +1,200 @@
+
+.name_web{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.name_web span h1{
+  font-size: 4rem;
+  font-family: 'Pacifico', cursive;
+}
+.name_web span{
+  font-weight: bold;
+  background-image: linear-gradient(
+ to right,
+ #462523 0,
+ #cb9b51 22%, 
+ #f6e27a 45%,
+ #f6f2c0 50%,
+ #f6e27a 55%,
+ #cb9b51 78%,
+ #462523 100%
+ ); 
+  color:transparent;
+  -webkit-background-clip:text;
+
+} 
+#logo{
+	margin: 2rem;
+}
+
+#navbar{
+
+  width: 100vw;
+    display:grid;
+    grid-template-columns: 2fr 3fr;
+    align-items: center;
+}
+
+#navbar .head{
+  display: flex;
+  justify-content: flex-end;
+}
+#navbar .head ul{
+  
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: flex-end;
+}
+#navbar .head li{ 
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+#navbar .head li a{
+    margin: 2rem;
+    color: white;
+    text-decoration: none;
+    font-family: cursive;
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    opacity: 0.82;
+    z-index: -1;
+   
+}
+#navbar .head li a:hover{
+    color: #fff;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 1px #fff,
+      0 0 1px #fff,
+      0 0 1px #0fa,
+      0 0 1px #0fa,
+      0 0 1px #0fa,
+      0 0 6px #0fa,
+      0 0 11px #0fa;
+   
+}
+
+@media only screen and (max-width:1170px) and (min-width:528px) {
+	#navbar{
+    display: flex;
+		flex-direction: column;
+	}
+	#navbar::before{
+		width: 100%;
+	}
+	#navbar .head {
+    margin: 1rem;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+        
+	}
+	#navbar .head ul li a{
+	font-size: 1.3rem;
+	margin: 0.5;
+	
+	  
+	}
+  
+	.name_web span h1{
+		font-size: 3rem;
+	}
+}
+@media only screen and (max-width:1340px) and (min-width:1170px){
+  #navbar{
+    display: flex;
+    flex-direction: column;
+  }
+	#navbar .head ul li a{
+    font-size: 1.5;
+    margin: 1.5;
+    }
+    #navbar .logo{
+      font-size: 3.5rem;
+    }
+}
+@media only screen and (max-width:528px) and (min-width:386px){
+  #navbar{
+    display: flex;
+		flex-direction: column;
+	}
+  #navbar .head ul{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+        
+	}
+  .name_web span h1{
+		font-size: 2rem;
+	}
+  #navbar .head ul li a{
+    font-size: 0.96rem;
+    margin: 0.7rem;
+    }
+}
+@media only screen and (max-width:386px) and (min-width:359px) {
+  #navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #navbar .name_web{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     margin-left: 0.1rem;
+  }
+  #navbar .head ul{
+    display: flex;
+    flex-direction: row;
+  
+  }
+  .name_web span h1{
+		font-size: 2rem;
+	}
+  #navbar .head ul li{
+    font-size: 0.8rem;
+  }
+ 
+}
+@media only screen and (max-width:359px){
+  #navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #navbar .head ul{
+    display: flex;
+    flex-direction: column;
+  
+  }
+  .name_web {
+    margin-top: 20px;
+  }
+  .name_web span h1{
+
+		font-size: 1.78rem;
+	}
+  #navbar .head{
+    margin-top: 0px;
+  }
+  #navbar .head ul li{
+    margin-top: 2px;
+    font-size: 0.8rem;
+  }
+ 
+}

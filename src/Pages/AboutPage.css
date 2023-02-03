@@ -1,0 +1,38 @@
+.AboutPageContent{
+    margin-top: 13rem;
+}
+.AboutPage h1{
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 5rem;
+    color: rgb(239, 236, 74);
+}
+.AboutPage .Name_aboutPage{
+    border: solid 2px white;
+    margin: 2rem;
+    padding: 2rem;
+}
+.AboutPage{
+    
+    margin: 3rem;
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.cnt{
+    font-size: 2rem;
+    padding: 2rem;
+    border: solid 2px white;
+}
+@media only screen and (max-width:810px){
+    .cnt{
+        font-size: 1rem;
+
+    }
+    .AboutPage h1{
+        font-size: 2rem;
+    }
+}

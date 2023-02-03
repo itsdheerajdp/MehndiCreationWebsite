@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600&display=swap');
+.btn span{
+    position: relative;
+    display: inline-flex;
+    width: 180px;
+    height: 55px;
+    margin: 0 15px;
+    perspective: 1000px;
+  }
+ .btn span a{
+    font-size: 19px;
+    letter-spacing: 1px;
+    transform-style: preserve-3d;
+    transform: translateZ(-25px);
+    transition: transform .25s;
+    font-family: 'Montserrat', sans-serif;
+    
+  }
+  .btn span a:before,
+  .btn span a:after{
+    position: absolute;
+    content: "Read More";
+    height: 55px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid rgb(0, 0, 0);
+    box-shadow: 8px 8px 25px rgb(49, 49, 49);
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+  .btn span a:before{
+    color: #fff;
+    background: #000;
+    transform: rotateY(0deg) translateZ(25px);
+  }
+ .btn span a:after{
+    color: rgb(237, 122, 122);
+    transform: rotateX(90deg) translateZ(25px);
+  }
+ .btn span a:hover{
+    transform: translateZ(-25px) rotateX(-90deg);
+  }
+ 
