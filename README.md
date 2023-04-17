@@ -1,5 +1,5 @@
 # Mehndi Creation Website
-## about this
-_this is the full stack website which is built by mongoDb,ExpressJs,ReactJs and NodeJs_
+## about 
+_this is a full stack website is built with mongoDb,ExpressJs,ReactJs and NodeJs_
 ---
-_You can check out this website by clicking [Mehndi Creation Website](https://sonamcreation.vercel.app/)_
+_check out [Mehndi Creation Website](https://sonamcreation.vercel.app/)_
