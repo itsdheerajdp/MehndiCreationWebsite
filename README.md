@@ -20,6 +20,19 @@ This is a full-stack web application created using MERN stack - MongoDB, Express
 
 1. Clone the repository to your local machine
 2. Install dependencies using `npm install`
+3. Start the server using `npm start`
+4. Open the website in your browser at `http://localhost:3000`
+
+## Contributing
+
+If you would like to contribute to the project, please fork the repository and create a pull request.
+
+## Acknowledgements
+
+- The project was created using the MERN stack.
+- The design and layout of the website were inspired by other similar websites in the same niche.
+- Special thanks to the Mehndi designer Sonam for her cooperation and valuable inputs throughout the project.
+
 
 
 ---
