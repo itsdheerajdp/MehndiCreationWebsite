@@ -36,4 +36,4 @@ If you would like to contribute to the project, please fork the repository and c
 
 
 ---
-_check out [Sonam Creation Website](https://sonamcreation.vercel.app/)_
+_check out [Mehndi Creation Website](https://sonamcreation.vercel.app/)_
