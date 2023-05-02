@@ -1,6 +1,6 @@
-# Sonam Mehndi Creation Website
+# Mehndi Creation Website
 
-This is a full-stack web application created using MERN stack - MongoDB, Express.js, React.js, and Node.js. The website is created for a Mehndi designer named Sonam Mehndi Creation. It contains four sections in the navbar: Home, About, Blog, and Contact.
+This is a full-stack web application created using MERN stack - MongoDB, Express.js, React.js, and Node.js. The website is created for a Mehndi designer. It contains four sections in the navbar: Home, About, Blog, and Contact.
 
 ## Features
 
@@ -12,15 +12,14 @@ This is a full-stack web application created using MERN stack - MongoDB, Express
 
 ## Requirements
 
-- Node.js (version 14 or higher)
-- NPM (version 6 or higher)
+- Node.js 
+- NPM 
 - MongoDB
 
 ## Installation
 
 1. Clone the repository to your local machine
 2. Install dependencies using `npm install`
-3. Create a `.env` file with the following variables:
 
 
 ---
